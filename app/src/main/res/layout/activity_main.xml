@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorBG"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logo"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorwht"
+        android:fontFamily="cursive"
+        android:textAllCaps="false"
+        android:paddingTop="50dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frnds_main"
+        android:layout_gravity="center"
+        android:src="@drawable/friends"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/view_btn"
+        android:layout_width="350dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btns"
+        android:text="@string/viewList"
+        android:textColor="@color/colorwht"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:fontFamily="casual"/>
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btns"
+        android:text="@string/about"
+        android:textColor="@color/colorwht"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:fontFamily="casual"/>
+</LinearLayout>
+
+

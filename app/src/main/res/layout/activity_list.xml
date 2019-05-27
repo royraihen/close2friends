@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LL_list"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/friend_list"
+            android:id="@+id/lst_label"
+            android:gravity="center"
+            android:textColor="@color/colorwht"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="casual"
+            android:layout_marginBottom="5dp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="445dp"
+            android:id="@+id/SV_list"
+            android:layout_below="@id/lst_label"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/row1"
+                android:gravity="start"
+                android:paddingStart="30sp"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contact1"
+                    android:background="@drawable/clrprt"
+                    android:layout_marginStart="10sp"/>
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+
+        </ScrollView>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SV_list"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <ImageButton
+                android:id="@+id/take_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/botton_btn"
+                android:src="@drawable/cameranpress"
+                android:layout_weight="1"
+            />
+            <ImageButton
+                android:id="@+id/take_date"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/botton_btn"
+                android:src="@drawable/datenpressed"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/take_call"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/botton_btn"
+                android:src="@drawable/phonenpress"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_logo"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="60dp"
+            android:textColor="@color/colorwht"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:paddingBottom="45dp"
+            android:id="@+id/sendLogoTV"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/sendLogoTV"
+            android:id="@+id/details"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/date_when"
+                android:inputType="date"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/dateTV"
+                />
+            <Button
+                android:id="@+id/datepicker"
+                android:layout_gravity="center"
+                android:text="@string/date_pick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sendLogoTV"
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/event_title"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789אבגדהוזחטיכלמנסעפצקרשתךםן"
+                        android:id="@+id/titleET"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:layout_margin="15dp"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/date_info"
+                        android:id="@+id/infoET"
+                        android:inputType="text"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:layout_margin="15dp"/>
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <ImageButton
+                android:id="@+id/okIB"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/botton_btn"
+                android:src="@drawable/oknopress"
+                android:layout_weight="1"
+                />
+            <ImageButton
+                android:id="@+id/notokIB"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/botton_btn"
+                android:src="@drawable/notnopress"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

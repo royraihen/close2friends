@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Close2Friends</string>
+    <string name="logo">Stay In Touch With Your Friends!</string>
+    <string name="viewList">Present Your Friends List</string>
+    <string name="about">About</string>
+    <string name="full_about">This is a program made to help you to keep in touch with your close friends, You can schedule meeting, Add missing friend, Take their picture, and make phone call through the app. ENJOY!</string>
+    <string name="bck_main">Back to Main</string>
+    <string name="friend_list">Your Friends List</string>
+    <string name="new_contact">New Friend</string>
+    <string name="full_name">Friend\'s full name</string>
+    <string name="nick_name">Friend\'s nickname</string>
+    <string name="email_address">Friend\'s E-mail</string>
+    <string name="saved">Your new friend has been added!</string>
+    <string name="discarted">No new friend were added!</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_sms">SMS Sender</string>
+    <string name="content_sms">SMS Content</string>
+    <string name="date_logo">Set a Date</string>
+    <string name="date_info">Describe your date</string>
+    <string name="date_when">When?</string>
+    <string name="def_number">050-1234567</string>
+    <string name="def_email">shlomke@blabla.com</string>
+    <string name="def_name">Shlomo Cohen</string>
+    <string name="def_nick">Shlomkovitch</string>
+    <string name="date_pick">Choose Date</string>
+    <string name="event_title">Title of your Date</string>
+    <string name="camera_gallery">Where to take the profile from?</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+</resources>

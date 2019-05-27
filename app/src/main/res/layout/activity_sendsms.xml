@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_sms"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="60dp"
+            android:textColor="@color/colorwht"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:paddingBottom="45dp"
+            android:id="@+id/sendLogoTV"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/sendLogoTV"
+            android:id="@+id/details"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/content_sms"
+                android:id="@+id/smsET"
+                android:inputType="text"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_margin="15dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <ImageButton
+                android:id="@+id/okIB"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/botton_btn"
+                android:src="@drawable/oknopress"
+                android:layout_weight="1"
+                />
+            <ImageButton
+                android:id="@+id/notokIB"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/botton_btn"
+                android:src="@drawable/notnopress"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

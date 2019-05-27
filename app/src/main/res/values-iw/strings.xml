@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Close2Friends</string>
+    <string name="logo">תשמרו על קשר עם החברים!</string>
+    <string name="viewList">הצג את רשימת החברים שלך</string>
+    <string name="about">אודות</string>
+    <string name="full_about">האפליקציה נועדה בשביל להקל על שמירת קשר עם החברים הקרובים, בעזרת האפליקציה ניתו יהיה לקבוע פגישות, להוסיף חברים לאנשי הקשר, לצלם אותם, ולהתקשר אליהם דרך האפליקציה, תהנו!</string>
+    <string name="bck_main">חזור לדף הראשי</string>
+    <string name="friend_list">רשימת החברים שלך</string>
+    <string name="new_contact">חבר חדש</string>
+    <string name="full_name">שם המלא של החבר</string>
+    <string name="nick_name">הכינוי של החבר</string>
+    <string name="email_address">דואר אלקטרוני של החבר</string>
+    <string name="saved">החבר החדש נשמר!</string>
+    <string name="discarted">לא נשמר החבר החדש!</string>
+    <string name="phone_number">מספר הטלפון של החבר!</string>
+    <string name="send_sms">הודעת SMS</string>
+    <string name="content_sms">תוכן הודעה</string>
+    <string name="date_logo">קבע פגישה</string>
+    <string name="date_info">תאר את הפגישה</string>
+    <string name="date_when">מתי?</string>
+    <string name="def_number">050-1234567</string>
+    <string name="def_email">shlomke@blabla.com</string>
+    <string name="def_name">שלמה כהן</string>
+    <string name="def_nick">שלומקוביץ\'</string>
+    <string name="date_pick">בחר תאריך</string>
+    <string name="event_title">הכתורת של הפגישה</string>
+    <string name="camera_gallery">מאיפה לבחור את התמונה?</string>
+    <string name="camera">מצלמה</string>
+    <string name="gallery">גלריה</string>
+</resources>
